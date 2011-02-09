@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+ 
+<!--
+
+  	88888888888 888                                                  888    888
+	    888     888                                                  888    888
+	    888     888                                                  888    888
+	    888     88888b.   .d88b.  888d888 88888b.  .d8888b   .d88b.  888888 888888
+	    888     888 "88b d88""88b 888P"   888 "88b 88K      d8P  Y8b 888    888
+	    888     888  888 888  888 888     888  888 "Y8888b. 88888888 888    888
+	    888     888  888 Y88..88P 888     888  888      X88 Y8b.     Y88b.  Y88b.
+            888     888  888  "Y88P"  888     888  888  88888P'  "Y8888   "Y888  "Y888
+
+
+	 .d8888b.  888       8888888b.                    d8b      888
+	d88P  Y88b 888       888  "Y88b                   Y8P      888
+	Y88b.      888       888    888                            888
+	 "Y888b.   888888    888    888  8888b.  888  888 888  .d88888 .d8888b
+	    "Y88b. 888       888    888     "88b 888  888 888 d88" 888 88K
+	      "888 888       888    888 .d888888 Y88  88P 888 888  888 "Y8888b.
+	Y88b  d88P Y88b.     888  .d88P 888  888  Y8bd8P  888 Y88b 888      X88
+	 "Y8888P"   "Y888    8888888P"  "Y888888   Y88P   888  "Y88888  88888P'
+
+
+
+        Thanks to : - 
+                      Abhin Sharma for the image preloader and fader [ http://bit.ly/h13imK ]
+
+-->
+
+  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta http-equiv="Content-Language" content="en" />
+   <meta name="description" content="Luxury one and two bedroom apartments in Islington, N7, London" />
+   <meta name="keywords" content="one bedroom, two bedroom, apartments, Islington, N7" />
+   <link rel="shortcut icon" href="http://www.thornsettgroup.com/favicon.ico" type="image/x-icon"/>
+   <title>Thornsett Group | St David's Apartments - Islington</title>
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+   <script type="text/javascript" src="js/jquery.preloader.js"></script>
+   <script type="text/javascript">
+                $(function() {
+
+                        var theWindow        = $(window),
+                            $bg              = $("#bg"),
+                            aspectRatio      = $bg.width() / $bg.height();
+
+                        function resizeBg() {
+
+                                if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+                                    $bg
+                                        .removeClass()
+                                        .addClass('bgheight');
+                                } else {
+                                    $bg
+                                        .removeClass()
+                                        .addClass('bgwidth');
+                                }
+
+                        }
+
+                        theWindow.resize(function() {
+                                resizeBg();
+                        }).trigger("resize");
+
+                });
+   </script>
+   <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-21145747-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+   </script>
+   <script type="text/javascript">
+                            $(function(){
+	
+	                                  $("#banner-head").preloader();
+	
+	                                });
+   </script>
+   <link rel="stylesheet" href="css/preloader.css" type="text/css" />
+
+  </head>
+  <body>
+   <img src="images/mainbedroom.jpg" id="bg" alt="St Davids Main Bedroom" />
+   <div id="panel">
+    <p> Fill out your details and we'll keep you up to date with St David's Apartments</p> 
+     <p>
+       <form action="mailto:enquiries@thornsettgroup.com" method="post" enctype="text/plain">
+         <input type="hidden" name="Development" value="St Davids" />
+	 Name:<br /> <input type="text" name="name" /><br />
+	 Email:<br /> <input type="text" name="email" /><br />
+  	 Telephone:<br /> <input type="text" name="telephone" /><br />
+	 Mobile:<br /> <input type="text" name="mobile" /><br />
+	 Address<br /><textarea cols="30" rows="5" name="address"></textarea><br />
+	 Bedrooms:<br /><input type="radio" name="bedrooms" value="1" /> One <input type="radio" name="bedrooms" value="2" /> Two<br />
+         Tell us how you heard about St David's<br /><textarea cols="30" rows="5" name="how"></textarea><br />
+   	 <input type="submit" name="submit" value="Send" /> <input type="reset" name="reset" value="Clear Form" />
+        </form>
+       </p>
+     </div>
+     <div id="banner-head">
+      <img src="images/tglogosupersmall.png" alt="Thornsett Group"/>
+      <img src="images/sdatext2supersmall.png" alt="St Davids Apartments"/>
+      <br />
+      <br />
+      <p>
+       <a href="index.html">Home</a> <a href="video.html">Watch the video</a>
+      </p> 
+     </div> 
+    </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+ 
+<!--
+
+  	88888888888 888                                                  888    888
+	    888     888                                                  888    888
+	    888     888                                                  888    888
+	    888     88888b.   .d88b.  888d888 88888b.  .d8888b   .d88b.  888888 888888
+	    888     888 "88b d88""88b 888P"   888 "88b 88K      d8P  Y8b 888    888
+	    888     888  888 888  888 888     888  888 "Y8888b. 88888888 888    888
+	    888     888  888 Y88..88P 888     888  888      X88 Y8b.     Y88b.  Y88b.
+            888     888  888  "Y88P"  888     888  888  88888P'  "Y8888   "Y888  "Y888
+
+
+	 .d8888b.  888       8888888b.                    d8b      888
+	d88P  Y88b 888       888  "Y88b                   Y8P      888
+	Y88b.      888       888    888                            888
+	 "Y888b.   888888    888    888  8888b.  888  888 888  .d88888 .d8888b
+	    "Y88b. 888       888    888     "88b 888  888 888 d88" 888 88K
+	      "888 888       888    888 .d888888 Y88  88P 888 888  888 "Y8888b.
+	Y88b  d88P Y88b.     888  .d88P 888  888  Y8bd8P  888 Y88b 888      X88
+	 "Y8888P"   "Y888    8888888P"  "Y888888   Y88P   888  "Y88888  88888P'
+
+-->
+
+  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta http-equiv="Content-Language" content="en" />
+   <meta name="description" content="Luxury one and two bedroom apartments in Islington, N7, London" />
+   <meta name="keywords" content="one bedroom, two bedroom, apartments, Islington, N7" />
+   <link rel="shortcut icon" href="http://www.thornsettgroup.com/favicon.ico" type="image/x-icon"/>
+   <title>Thornsett Group | St David's Apartments - Islington</title>
+   <style type="text/css">
+
+    * { margin: 0; padding: 0; }
+
+        a {
+	font: 15px/2 Arial, Serif;
+        color: #000;
+	text-decoration: none;
+	display: block;
+       }
+    a:hover { color: #ccc; }
+
+
+    #bg
+       {
+        position: fixed;
+        top: 0;
+        left: 0
+       }
+
+   .bgwidth
+           {
+            width: 100%
+           }
+
+   .bgheight
+            {
+             height: 100%
+            }
+
+   #banner-head
+               {
+                position: absolute;
+		left: 30px;
+		width: 210px;
+		margin: 30px auto;
+		padding: 20px;
+		background: white;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+		filter: alpha(opacity=95);
+		-moz-opacity: 0.95;
+		-khtml-opacity: 0.95;
+		opacity: 0.95;
+		-moz-box-shadow: 0 0 20px black;
+		-webkit-box-shadow: 0 0 20px black;
+		 box-shadow: 0 0 20px black
+                }
+
+   p {
+          font: 15px/2 Arial, Serif;
+          margin: 0 0 10px 0;
+          /*text-indent: 40px
+         }
+
+   </style>
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+   <script type="text/javascript" src="scripts/btn.js"></script>
+   <script type="text/javascript">
+                $(function() {
+
+                        var theWindow        = $(window),
+                            $bg              = $("#bg"),
+                            aspectRatio      = $bg.width() / $bg.height();
+
+                        function resizeBg() {
+
+                                if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+                                    $bg
+                                        .removeClass()
+                                        .addClass('bgheight');
+                                } else {
+                                    $bg
+                                        .removeClass()
+                                        .addClass('bgwidth');
+                                }
+
+                        }
+
+                        theWindow.resize(function() {
+                                resizeBg();
+                        }).trigger("resize");
+
+                });
+   </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21145747-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </head>
+ <body>
+  <img src="images/sdanighttimereduced.jpg" id="bg" alt="St Davids Exterior" />
+     <div id="banner-head">
+   <img src="images/tglogosupersmall.png" alt="Thornsett Group"/>
+   <img src="images/sdatext2supersmall.png" alt="St Davids Apartments"/>
+   <br />
+   <br />
+   <p><a href="video.html">Watch the video</a> <a href="interest.html">Learn more</a></p> 
+
+    </div> 
+
+ </body>
+</html>

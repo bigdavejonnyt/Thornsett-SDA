@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<!--
+
+  	88888888888 888                                                  888    888
+	    888     888                                                  888    888
+	    888     888                                                  888    888
+	    888     88888b.   .d88b.  888d888 88888b.  .d8888b   .d88b.  888888 888888
+	    888     888 "88b d88""88b 888P"   888 "88b 88K      d8P  Y8b 888    888
+	    888     888  888 888  888 888     888  888 "Y8888b. 88888888 888    888
+	    888     888  888 Y88..88P 888     888  888      X88 Y8b.     Y88b.  Y88b.
+  		888     888  888  "Y88P"  888     888  888  88888P'  "Y8888   "Y888  "Y888
+
+
+	 .d8888b.  888       8888888b.                    d8b      888
+	d88P  Y88b 888       888  "Y88b                   Y8P      888
+	Y88b.      888       888    888                            888
+	 "Y888b.   888888    888    888  8888b.  888  888 888  .d88888 .d8888b
+	    "Y88b. 888       888    888     "88b 888  888 888 d88" 888 88K
+	      "888 888       888    888 .d888888 Y88  88P 888 888  888 "Y8888b.
+	Y88b  d88P Y88b.     888  .d88P 888  888  Y8bd8P  888 Y88b 888      X88
+	 "Y8888P"   "Y888    8888888P"  "Y888888   Y88P   888  "Y88888  88888P'
+
+-->
+
+  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <title>Thornsett Group | St David's Apartments - Islington</title>
+   <style>
+                * { margin: 0; padding: 0; }
+
+                #bg
+                  {
+                   position: fixed;
+                   top: 0;
+                   left: 0
+                  }
+
+                .bgwidth
+                        {
+                         width: 100%
+                        }
+
+                .bgheight
+                         {
+                          height: 100%
+                         }
+
+                #page-wrap
+                          {
+                           position: absolute;
+                           right: 40px;
+                           width: 400px;
+                           margin: 50px auto;
+                           padding: 20px;
+                           background: white;
+                           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+						   filter: alpha(opacity=95);
+						   -moz-opacity: 0.95;
+						   -khtml-opacity: 0.95;
+                           opacity: 0.95;
+                           -moz-box-shadow: 0 0 20px black;
+                           -webkit-box-shadow: 0 0 20px black;
+                           box-shadow: 0 0 20px black;
+                          }
+
+                #banner-head
+                            {
+                             position: absolute;
+							 left: 40px;
+							 width: 300px;
+							 margin: 50px auto;
+							 padding: 20px;
+							 background: white;
+							 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+							 filter: alpha(opacity=95);
+							 -moz-opacity: 0.95;
+							 -khtml-opacity: 0.95;
+							 opacity: 0.95;
+							 -moz-box-shadow: 0 0 20px black;
+							 -webkit-box-shadow: 0 0 20px black;
+							 box-shadow: 0 0 20px black;
+                          }
+
+                #page-wrap li {
+					list-style-type: none;
+					padding: 0 5px;
+				}
+
+				.dimension {
+					height: 400px;
+				}
+
+				.even, .odd {
+					font-weight: bold;
+					height: 27px;
+					padding-top: 3px;
+					padding-left: 10px;
+				}
+
+				.even {
+					border: 1px solid #d8d8d8;
+					background-color: #ececec;
+				}
+
+				.odd {
+					border: 1px solid black;
+					background: #333;
+	                color: white;
+	            }
+
+                p, li {
+                   font: 15px/2 Arial, Serif;
+                   margin: 0 0 10px 0;
+                   /*text-indent: 40px
+                  }
+
+        </style>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+        <script>
+                $(function() {
+
+                        var theWindow        = $(window),
+                            $bg              = $("#bg"),
+                            aspectRatio      = $bg.width() / $bg.height();
+
+                        function resizeBg() {
+
+                                if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+                                    $bg
+                                        .removeClass()
+                                        .addClass('bgheight');
+                                } else {
+                                    $bg
+                                        .removeClass()
+                                        .addClass('bgwidth');
+                                }
+
+                        }
+
+                        theWindow.resize(function() {
+                                resizeBg();
+                        }).trigger("resize");
+
+                });
+        </script>
+        <script type="text/javascript" src="scripts/jMenu.js"></script>
+        <link rel="shortcut icon" href="http://www.thornsettgroup.com/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+        <img src="images/sdanighttimereduced.jpg" id="bg" alt="St Davids Exterior">
+
+        <div id="banner-head">
+         <img src="images/sdatext2sm.png" alt="St Davids Apartments"/>
+        </div>
+        <div id="page-wrap">
+
+                <p>With London properties, it's rare to have everything - popular location, quick and easy commute to all the hot spots in the city and a beautiful apartment.</p>
+                <p>On a tree lined street in Barnsbury, in the highly sought after borough of Islington, you'll find these state-of-the-art apartments, just a short journey from central London.</p>
+                <p>St David's Apartments give you everything you would want - a prime location and a high quality apartment with lots of space. An efferverscent area bursting with options for everyone. a place that attracts significant investment year after year, providing a sound growth opportunity for investors and owner occupiers alike.</p>
+                <p>Why compromise?</p>
+
+                <ul>
+					<li>View the video</li>
+						<li><iframe src="http://player.vimeo.com/video/9617938?byline=0&amp;portrait=0&amp;color=7DB96A" width="400" height="300" frameborder="0"></iframe></li>
+						<li>Register your interest</li>
+						<li>
+						<p>
+						   <form action="mailto:david.j.tomlinson@gmail.com" method="get" enctype="text/plain">
+						     <p>Name:<br /> <input type="text" name="name" /></p>
+						     <p>Email:<br /> <input type="text" name="email" /></p>
+						     <p>Telephone:<br /> <input type="text" name="telephone" /></p>
+						     <p>Mobile:<br /> <input type="text" name="mobile" /></p>
+						     <p>Address<br />
+						      <textarea cols="30" rows="5" name="address"></textarea></p>
+						     <p>Bedrooms:<br />
+						     <input type="radio" name="bedrooms" value="1" /> One
+                             <input type="radio" name="bedrooms" value="2" /> Two</p>
+                             <p>Tell us how you heard about St David's<br />
+						      <textarea cols="30" rows="5" name="how"></textarea></p>
+						     <p><input type="submit" name="submit" value="Send" />
+						     <input type="reset" name="reset" value="Clear Form" /></p>
+                            </form>
+						 </p>
+						</li>
+	</ul>
+
+        </div>
+
+
+ </body>
+</html>
